@@ -2,20 +2,20 @@
 1 verbose cli [ '/usr/local/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
 1 verbose cli   'run',
-1 verbose cli   'version:patch' ]
+1 verbose cli   'version:minor' ]
 2 info using npm@3.10.3
 3 info using node@v6.7.0
-4 verbose run-script [ 'preversion:patch', 'version:patch', 'postversion:patch' ]
-5 info lifecycle stupidlittlewebsite@1.0.1~preversion:patch: stupidlittlewebsite@1.0.1
-6 silly lifecycle stupidlittlewebsite@1.0.1~preversion:patch: no script for preversion:patch, continuing
-7 info lifecycle stupidlittlewebsite@1.0.1~version:patch: stupidlittlewebsite@1.0.1
-8 verbose lifecycle stupidlittlewebsite@1.0.1~version:patch: unsafe-perm in lifecycle true
-9 verbose lifecycle stupidlittlewebsite@1.0.1~version:patch: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/tylers_mac/Desktop/PLURALSIGHT/NPM/node_modules/.bin:/usr/local/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-10 verbose lifecycle stupidlittlewebsite@1.0.1~version:patch: CWD: /Users/tylers_mac/Desktop/PLURALSIGHT/NPM
-11 silly lifecycle stupidlittlewebsite@1.0.1~version:patch: Args: [ '-c', 'npm version patch' ]
-12 silly lifecycle stupidlittlewebsite@1.0.1~version:patch: Returned: code: 1  signal: null
-13 info lifecycle stupidlittlewebsite@1.0.1~version:patch: Failed to exec version:patch script
-14 verbose stack Error: stupidlittlewebsite@1.0.1 version:patch: `npm version patch`
+4 verbose run-script [ 'preversion:minor', 'version:minor', 'postversion:minor' ]
+5 info lifecycle stupidlittlewebsite@1.0.2~preversion:minor: stupidlittlewebsite@1.0.2
+6 silly lifecycle stupidlittlewebsite@1.0.2~preversion:minor: no script for preversion:minor, continuing
+7 info lifecycle stupidlittlewebsite@1.0.2~version:minor: stupidlittlewebsite@1.0.2
+8 verbose lifecycle stupidlittlewebsite@1.0.2~version:minor: unsafe-perm in lifecycle true
+9 verbose lifecycle stupidlittlewebsite@1.0.2~version:minor: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/tylers_mac/Desktop/PLURALSIGHT/NPM/node_modules/.bin:/usr/local/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle stupidlittlewebsite@1.0.2~version:minor: CWD: /Users/tylers_mac/Desktop/PLURALSIGHT/NPM
+11 silly lifecycle stupidlittlewebsite@1.0.2~version:minor: Args: [ '-c', 'npm version minor' ]
+12 silly lifecycle stupidlittlewebsite@1.0.2~version:minor: Returned: code: 1  signal: null
+13 info lifecycle stupidlittlewebsite@1.0.2~version:minor: Failed to exec version:minor script
+14 verbose stack Error: stupidlittlewebsite@1.0.2 version:minor: `npm version minor`
 14 verbose stack Exit status 1
 14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:242:16)
 14 verbose stack     at emitTwo (events.js:106:13)
@@ -25,21 +25,21 @@
 14 verbose stack     at ChildProcess.emit (events.js:191:7)
 14 verbose stack     at maybeClose (internal/child_process.js:877:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
-15 verbose pkgid stupidlittlewebsite@1.0.1
+15 verbose pkgid stupidlittlewebsite@1.0.2
 16 verbose cwd /Users/tylers_mac/Desktop/PLURALSIGHT/NPM
 17 error Darwin 14.3.0
-18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "version:patch"
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "version:minor"
 19 error node v6.7.0
 20 error npm  v3.10.3
 21 error code ELIFECYCLE
-22 error stupidlittlewebsite@1.0.1 version:patch: `npm version patch`
+22 error stupidlittlewebsite@1.0.2 version:minor: `npm version minor`
 22 error Exit status 1
-23 error Failed at the stupidlittlewebsite@1.0.1 version:patch script 'npm version patch'.
+23 error Failed at the stupidlittlewebsite@1.0.2 version:minor script 'npm version minor'.
 23 error Make sure you have the latest version of node.js and npm installed.
 23 error If you do, this is most likely a problem with the stupidlittlewebsite package,
 23 error not with npm itself.
 23 error Tell the author that this fails on your system:
-23 error     npm version patch
+23 error     npm version minor
 23 error You can get information on how to open an issue for this project with:
 23 error     npm bugs stupidlittlewebsite
 23 error Or if that isn't available, you can get their info via:
