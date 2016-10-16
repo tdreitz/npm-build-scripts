@@ -53,5 +53,9 @@
     "typescript": "^2.0.3",
     "uglifyjs": "^2.4.10",
     "watch": "^1.0.1"
+  },
+  "repository": {
+      "type": "git",
+      "url": "."
   }
 }
